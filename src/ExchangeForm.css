@@ -1,0 +1,74 @@
+
+.exchange-card {
+  border: none;
+  display: flex;
+  flex-direction: row;
+ 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+    background-color: #90918f80;
+    height: 400px;
+ 
+    margin-top: 140px;
+    
+
+   }
+ 
+
+
+
+.exchange-card .card-title {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f9fbfc;
+}
+
+.exchange-card .form-label {
+  font-weight: 500;
+}
+
+.exchange-card .form-control {
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.exchange-card .btn-primary {
+  margin-top: 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.exchange-card .btn-secondary {
+  margin-top: 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.exchange-card .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.exchange-card .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.exchange-card .btn-secondary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.exchange-card .btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}

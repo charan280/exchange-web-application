@@ -1,0 +1,156 @@
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 999;
+  height: 100px;
+  display: flex;
+  transition: background 0.1s ease;
+}
+.me-auto {
+gap: 50px;
+margin-left: 50px;
+font-size: 20px;
+}
+.navbar-scrolled {
+  background: black;
+}
+.navbar-nav .nav-link.active {
+  color: #b7b7b4 !important;
+}
+.navbar-custom .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #bfdf4c ;
+  margin-left: -30px;
+  max-width: 100%; /* Ensure the container does not exceed the viewport width */
+  overflow: hidden; /* Hide any overflow content to prevent cutting off */
+  text-align: center;
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff ;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #c0c0c0 ;
+}
+
+.image {
+  max-width: 50px;
+  height: 50px; 
+  margin: 0 auto;
+}
+
+:root{
+  --white-smoke: #f0f0f0;
+  --mount-meadow:  #CC5500;
+  --night-rider: #343434;
+  --black: #191b17;
+  --transition: all 0.5s ease-in-out;
+}
+
+.footer{
+    text-align: center;
+    background: var(--black);
+    color: var(--white-smoke);
+    padding: 2rem 0;
+    height: 50vh;
+}
+.footer .text{
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+    opacity: 0.8;
+    transition: var(--transition);
+    gap: 30px;
+}
+.footer-links :hover{
+    background: var(--mount-meadow);
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    padding-top: 5px;
+}
+
+
+@media (max-width: 576px) {
+  .navbar-custom {
+    padding: 20px;
+  }
+
+  .container2 {
+    font-size: 14px;
+    padding: 10px;
+     margin-left: 0%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar-custom {
+    .navbar-brand img {
+      height: 40px;
+    }
+  }
+
+  .container2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-left: 0%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .navbar-custom {
+    .navbar-nav {
+      gap: 20px;
+    }
+  }
+  .container2 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    .footer-links {
+      justify-content: center;
+    }
+  }
+}
+
+
+@media (min-width: 993px) {
+  .navbar-custom {
+    .navbar-brand img {
+      height: 50px;
+    }
+  }
+  .container2 {
+    padding: 50px;
+  }
+
+  .footer {
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+}
