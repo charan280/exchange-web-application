@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/exchange-web-application/static/css/main.6fdc37b7.css",
+    "main.js": "/exchange-web-application/static/js/main.59660dec.js",
+    "static/media/background.png": "/exchange-web-application/static/media/background.ff428bf1bcc2cf3a8463.png",
+    "static/media/fa-solid-900.ttf": "/exchange-web-application/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/exchange-web-application/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/exchange-web-application/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/exchange-web-application/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/exchange-web-application/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/dollar.png": "/exchange-web-application/static/media/dollar.ed24bb3481a327689b68.png",
+    "static/media/fa-regular-400.woff2": "/exchange-web-application/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/exchange-web-application/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/exchange-web-application/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/exchange-web-application/index.html",
+    "main.6fdc37b7.css.map": "/exchange-web-application/static/css/main.6fdc37b7.css.map",
+    "main.59660dec.js.map": "/exchange-web-application/static/js/main.59660dec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fdc37b7.css",
+    "static/js/main.59660dec.js"
+  ]
+}
